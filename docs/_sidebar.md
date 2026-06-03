@@ -16,16 +16,18 @@
     * [初识Flutter项目](./flutter/f002.md)
     * [Widget概念](./flutter/f003.md)
     * [Widget分类](./flutter/f006.md)
-    * [常用事件](./flutter/f004.md)
+    * [Widget速查表](./flutter/f010.md)
+    * [Widget布局理解](./flutter/f011.md)
     * [Container/Center/Align/Padding](./flutter/f005.md)
     * [Column/Row/Flex/Wrap](./flutter/f007.md)
     * [Stack/Positioned/Text](./flutter/f008.md)
-    * [Image](./flutter/f009.md)
-
+    * [Image/TextField](./flutter/f009.md)
+    * [常用事件](./flutter/f004.md)
 
 
 
 * 其他
+    * [Prompt](prompt.md)
     * [技巧](skill.md)
     * [打包&发布](pack.md)
 
