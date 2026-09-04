@@ -8,10 +8,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
   <!-- 引入 docsify 样式: vue.css 是默认主题，dark.css 是暗黑主题 -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" disabled />
+  <link
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/core-dark.min.css"
+    media="(prefers-color-scheme: dark)"
+  />
+
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" disabled /> -->
+
 </head>
-<body>
+<body class="sidebar-chevron-right">
   <div id="app"></div>
   <script>
     // 配置 docsify，这些属性的含义可以在 docsify 官网查看
@@ -24,8 +35,10 @@
       repo: ''
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Docsify v5 -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@5/dist/docsify.min.js"></script>
+
 
   <!-- 在index.html中添加代码高亮的配置 -->
   <!-- 去这个网站找：https://cdn.jsdelivr.net/npm/prismjs@1.30.0/components/ -->
@@ -40,11 +53,12 @@
   <!-- 在index.html中添加一键拷贝代码的配置 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 
-  <!-- Medium's 风格的图片缩放插件. 基于 medium-zoom。 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 缩放插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@5/dist/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@5/dist/plugins/zoom.min.js"></script>
 
   <!-- 解析emoji显示 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@5/dist/plugins/emoji.min.js"></script>
   
 </body>
 </html>

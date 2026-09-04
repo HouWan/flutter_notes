@@ -29,7 +29,7 @@
 5. 如果问题涉及性能、热重载、生命周期、状态管理，请给出工程经验级别的说明
 
 
-我正学习 Flutter 的 Text 这个 Widget，请给我一个表格，列举它的**常用属性和方法**（不用和iOS/Android对比，只关注 Text 这个 Widget ）。
+我正学习 Flutter 的 PageView 这个 Widget，请给我一个表格，列举它的**常用属性和方法**（不用和iOS/Android对比，只关注 PageView 这个 Widget ）。
 ```
 
 ## 2.Flutter环境
