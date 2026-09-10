@@ -15,6 +15,7 @@
     * [Flutter环境搭建](./flutter/f001.md)
     * [VS Code 配置](./flutter/f013.md)
     * [初识Flutter项目](./flutter/f002.md)
+    * [使用插件](./flutter/f017.md)
     * [Widget概念](./flutter/f003.md)
     * [Widget分类](./flutter/f006.md)
     * [Widget速查表](./flutter/f010.md)
@@ -22,13 +23,15 @@
     * [Text/图片/Image](./flutter/f012.md)
     * [Container/Center/Align/Padding](./flutter/f005.md)
     * [Column/Row/Flex/Expanded/Wrap](./flutter/f007.md)
-    * [Stack/Positioned](./flutter/f008.md)
+    * [Stack/Positioned/FittedBox](./flutter/f008.md)
     * [TextField/SingleChildScrollView](./flutter/f009.md)
     * [ListView/GridView/CustomScrollView](./flutter/f014.md)
     * [PageView](./flutter/f015.md)
+    * [组件通信](./flutter/f016.md)
+    * [路由管理](./flutter/f019.md)
     * [常用事件](./flutter/f004.md)
-
-
+    * [Web跨域](./flutter/f018.md)
+    * [杂记](./flutter/f020.md)
 
 * 其他
     * [Prompt](prompt.md)
